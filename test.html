@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="test.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Job Freak</title>
+  </head>
+  <body>
+    <div id="left-panel">
+      <ul>
+        <li><a href="#" onclick="showContent('home')">Home</a></li>
+        <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+        <li>
+          <a href="#" onclick="showContent('information')">Information</a>
+        </li>
+        <li><a href="#" onclick="showContent('guide')">Guide</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+      <div id="home" class="content-section">
+        <h2>Welcome to the Home Page</h2>
+        <p>This is the content for the Home page.</p>
+      </div>
+
+      <div id="contact" class="content-section">
+        <h2>Contact Information</h2>
+        <p>This is the contact information.</p>
+      </div>
+      <div id="information" class="content-section">
+        <h2>Information</h2>
+        <p>This is some information.</p>
+      </div>
+
+      <div id="guide" class="content-section">
+        <h2>Guide</h2>
+        <p>This is a guide.</p>
+      </div>
+    </div>
+  </body>
+  <script src="test.js"></script>
+</html>
